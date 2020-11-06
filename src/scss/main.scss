@@ -24,6 +24,7 @@
 // ELEMENTS
 // Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.
 @import "elements/body";
+@import "elements/structure";
 @import "elements/headings";
 @import "elements/hr";
 @import "elements/images";
@@ -35,6 +36,10 @@
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
+@import "components/intro";
+@import "components/message";
+@import "components/image";
+@import "components/description";
 
 
 
